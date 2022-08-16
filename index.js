@@ -7,7 +7,7 @@ console.log(spans[1]);
 let x = 0,
   z = 0;
 // console.log(document.styleSheets[0].cssRules[4].cssRules[1].style.left);
-left.addEventListener("click", function () {
+right.addEventListener("click", function () {
   //first methode
   if (
     parseInt(document.styleSheets[0].cssRules[1].style.left) <= 0 &&
@@ -82,7 +82,7 @@ left.addEventListener("click", function () {
 
   console.log(x);
 });
-right.addEventListener("click", function () {
+left.addEventListener("click", function () {
   //first methode
 
   if (
